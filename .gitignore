@@ -1,0 +1,46 @@
+# Storage
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+
+# Environment
+/.env
+/.env.backup
+/.env.production
+
+# IDE
+/.idea
+/.vscode
+/*.swp
+/*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/node_modules
+/vendor
+
+# Build
+/public/hot
+/public/storage
+/public/build
+
+# Laravel specific
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# Testing
+.phpunit.result.cache
+/coverage
+
+# Temporary
+*.log
+.phpunit.cache
