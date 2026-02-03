@@ -31,9 +31,7 @@
                 </form>
                 
                 <div class="mt-3 text-muted text-center">
-                    <small><strong>Demo Credentials:</strong><br>
-                    Admin: admin@admin.com / admin123<br>
-                    User: demo@demo.com / demo123</small>
+                    <small><strong>Admin Login:</strong> admin@admin.com / admin123</small>
                 </div>
             </div>
         </div>
